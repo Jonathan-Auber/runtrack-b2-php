@@ -15,4 +15,4 @@ function my_str_search(string $haystack, string $needle): int
     return $occurences;
 }
 
-echo my_str_search('La Plateforme', 'a');
+my_str_search('La Plateforme', 'a');
